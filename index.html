@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuldeep — Telegram Bot Developer</title>
+<meta name="description" content="Kuldeep (@xypherOG) — Python developer building AI assistants, automation and utility bots for Telegram. Tested, deployed, source code included.">
+<meta name="theme-color" content="#06080d">
+<meta property="og:title" content="Kuldeep — Telegram Bot Developer">
+<meta property="og:description" content="I build Telegram bots that actually work. AI assistants, automation, utility bots.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%2338bdf8'/><text x='50' y='70' font-size='58' font-family='sans-serif' font-weight='bold' text-anchor='middle' fill='%2304121c'>K</text></svg>">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+
+<!-- background layers -->
+<div class="aurora" aria-hidden="true">
+  <span class="blob-1"></span>
+  <span class="blob-2"></span>
+  <span class="blob-3"></span>
+</div>
+<div class="grid-overlay" aria-hidden="true"></div>
+<canvas id="particles" aria-hidden="true"></canvas>
+<div class="spotlight" aria-hidden="true"></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- nav -->
+<nav id="nav">
+  <a class="brand" href="#top">
+    <span class="mark">K</span>
+    <span>Kuldeep<span style="color:#38bdf8">.</span></span>
+  </a>
+  <div class="nav-links">
+    <a href="#work">Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#process">Process</a>
+    <a href="#pricing">Pricing</a>
+    <a class="nav-cta" href="https://t.me/xypherOG" target="_blank" rel="noopener">Hire me</a>
+  </div>
+</nav>
+
+<!-- hero -->
+<header id="top">
+  <div class="wrap hero-inner">
+    <div class="badge"><span class="pulse-dot"></span> Available for new projects</div>
+
+    <p class="hero-name">
+      Kuldeep &nbsp;·&nbsp;
+      <a href="https://t.me/xypherOG" target="_blank" rel="noopener">@xypherOG</a>
+    </p>
+
+    <h1>
+      <span class="line"><span>I build Telegram bots</span></span>
+      <span class="line"><span>that <em class="grad" style="font-style:normal">actually work</em></span></span>
+      <span class="line"><span style="color:#8ea3ba;font-size:.62em;font-weight:600;letter-spacing:-.02em">— and look good doing it.</span></span>
+    </h1>
+
+    <p class="hero-sub">
+      Python developer specialising in AI assistants, automation and utility bots.
+      <br>I ship <span class="typed" id="typed"></span><span class="caret" aria-hidden="true"></span>
+    </p>
+
+    <div class="cta">
+      <a class="btn btn-p magnetic" href="https://t.me/Edive_ai" target="_blank" rel="noopener">
+        Try a live bot <span aria-hidden="true">→</span>
+      </a>
+      <a class="btn btn-s magnetic" href="#contact">Hire me</a>
+    </div>
+
+    <div class="stats">
+      <div class="stat">
+        <span class="num" data-count="2" data-suffix="">0</span>
+        <span class="lbl">Bots shipped</span>
+      </div>
+      <div class="stat">
+        <span class="num" data-count="17" data-suffix="/17">0</span>
+        <span class="lbl">Tests passing</span>
+      </div>
+      <div class="stat">
+        <span class="num" data-count="8" data-suffix="">0</span>
+        <span class="lbl">Tools built in</span>
+      </div>
+      <div class="stat">
+        <span class="num" data-count="7" data-suffix="d">0</span>
+        <span class="lbl">Free bug fixes</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint" aria-hidden="true">
+    <span>Scroll</span>
+    <span class="rail"></span>
+  </div>
+</header>
+
+<!-- marquee -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marqueeTrack">
+    <span>Python 3.11</span>
+    <span>python-telegram-bot</span>
+    <span>aiogram</span>
+    <span>OpenAI API</span>
+    <span>OpenRouter</span>
+    <span>Groq</span>
+    <span>FastAPI</span>
+    <span>SQLite</span>
+    <span>PostgreSQL</span>
+    <span>Docker</span>
+    <span>httpx</span>
+    <span>Webhooks</span>
+    <span>API Integration</span>
+    <span>Web Scraping</span>
+    <span>Linux / VPS</span>
+    <span>Automated Testing</span>
+  </div>
+</div>
+
+<!-- work -->
+<section id="work">
+  <div class="wrap">
+    <div class="eyebrow reveal">Selected work</div>
+    <h2 class="reveal" style="--i:1">Projects</h2>
+    <p class="lead reveal" style="--i:2">Real bots, running in production. Not screenshots of tutorials.</p>
+
+    <div class="grid">
+      <article class="card tilt reveal" style="--i:3">
+        <span class="tag live"><span class="mini-dot"></span> Live</span>
+        <h3>EDUDU AI — AI Assistant</h3>
+        <p class="desc">A full AI assistant inside Telegram. Chat, generate images, read photos, transcribe voice.</p>
+        <ul class="feat">
+          <li>Conversational AI with per-user memory</li>
+          <li>Image generation from text prompts</li>
+          <li>Photo understanding (vision)</li>
+          <li>Voice message transcription + reply</li>
+          <li>Rate limiting &amp; graceful error handling</li>
+          <li>Provider-agnostic (OpenAI, Groq, OpenRouter)</li>
+        </ul>
+        <div class="stack">Python 3.11 · python-telegram-bot 21 · OpenAI SDK · Docker</div>
+      </article>
+
+      <article class="card tilt reveal" style="--i:4">
+        <span class="tag"><span class="mini-dot"></span> Built &amp; tested</span>
+        <h3>Utility Bot — 8 Tools</h3>
+        <p class="desc">Multi-tool bot with zero paid API dependencies. 17/17 automated tests passing.</p>
+        <ul class="feat">
+          <li>QR code generator</li>
+          <li>Live crypto prices (USD + INR + 24h)</li>
+          <li>Live weather for any city</li>
+          <li>URL shortener</li>
+          <li>Injection-proof calculator (AST, no eval)</li>
+          <li>Notes with SQLite + per-user isolation</li>
+          <li>Natural-language reminders</li>
+        </ul>
+        <div class="stack">Python 3.11 · SQLite · httpx · qrcode · asyncio</div>
+      </article>
+
+      <article class="card tilt reveal" style="--i:5">
+        <span class="tag"><span class="mini-dot"></span> Automation</span>
+        <h3>YouTube Shorts Pipeline</h3>
+        <p class="desc">End-to-end video factory: AI script → AI images → voiceover → ffmpeg assembly → upload.</p>
+        <ul class="feat">
+          <li>1080×1920 vertical Shorts, 30 fps</li>
+          <li>Ken Burns zoom on every scene</li>
+          <li>Burned-in subtitles with auto-wrap</li>
+          <li>gTTS voiceover, scene-synced</li>
+          <li>Resumable YouTube Data API upload</li>
+        </ul>
+        <div class="stack">Python · ffmpeg · gTTS · Pillow · YouTube Data API v3</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- skills -->
+<section id="skills">
+  <div class="wrap">
+    <div class="eyebrow reveal">Toolkit</div>
+    <h2 class="reveal" style="--i:1">Skills</h2>
+    <p class="lead reveal" style="--i:2">The stack I reach for — chosen for reliability, not hype.</p>
+    <div class="chips">
+      <span class="chip reveal" style="--i:3">Python 3.11</span>
+      <span class="chip reveal" style="--i:3">python-telegram-bot</span>
+      <span class="chip reveal" style="--i:3">aiogram</span>
+      <span class="chip reveal" style="--i:4">OpenAI API</span>
+      <span class="chip reveal" style="--i:4">OpenRouter</span>
+      <span class="chip reveal" style="--i:4">Groq</span>
+      <span class="chip reveal" style="--i:5">FastAPI</span>
+      <span class="chip reveal" style="--i:5">SQLite</span>
+      <span class="chip reveal" style="--i:5">PostgreSQL</span>
+      <span class="chip reveal" style="--i:6">Docker</span>
+      <span class="chip reveal" style="--i:6">httpx</span>
+      <span class="chip reveal" style="--i:6">Webhooks</span>
+      <span class="chip reveal" style="--i:7">API Integration</span>
+      <span class="chip reveal" style="--i:7">Web Scraping</span>
+      <span class="chip reveal" style="--i:7">Linux / VPS</span>
+      <span class="chip reveal" style="--i:8">Automated Testing</span>
+    </div>
+  </div>
+</section>
+
+<!-- process -->
+<section id="process">
+  <div class="wrap">
+    <div class="eyebrow reveal">Process</div>
+    <h2 class="reveal" style="--i:1">How I work</h2>
+    <p class="lead reveal" style="--i:2">No surprises. You know exactly what you're getting and when.</p>
+    <div class="steps">
+      <div class="step reveal" style="--i:3">
+        <h4>Requirements</h4>
+        <p>15-minute chat. I write down exactly what the bot does — and what it doesn't.</p>
+      </div>
+      <div class="step reveal" style="--i:4">
+        <h4>Build</h4>
+        <p>Working bot in 2–5 days depending on scope. You get progress updates.</p>
+      </div>
+      <div class="step reveal" style="--i:5">
+        <h4>Test</h4>
+        <p>Automated tests plus live testing before I call it finished.</p>
+      </div>
+      <div class="step reveal" style="--i:6">
+        <h4>Deliver</h4>
+        <p>Source code, README, deployment done, 7 days free bug fixes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- pricing -->
+<section id="pricing">
+  <div class="wrap">
+    <div class="eyebrow reveal">Pricing</div>
+    <h2 class="reveal" style="--i:1">Packages</h2>
+    <p class="lead reveal" style="--i:2">Fixed price. No hourly billing, no scope creep surprises.</p>
+    <div class="price">
+      <div class="pcard reveal" style="--i:3">
+        <div class="name">Utility Bot</div>
+        <div class="amt"><small>$</small>70</div>
+        <p>3–8 commands, free APIs, source code, README</p>
+      </div>
+      <div class="pcard hot reveal" style="--i:4">
+        <div class="name">AI Chat Bot</div>
+        <div class="amt"><small>$</small>150</div>
+        <p>AI chat + memory + custom commands + deployment</p>
+      </div>
+      <div class="pcard reveal" style="--i:5">
+        <div class="name">AI Full Stack</div>
+        <div class="amt"><small>$</small>280</div>
+        <p>Chat + images + voice + vision + unlimited commands</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2 class="reveal">Got a bot in mind?</h2>
+    <p class="reveal" style="--i:1">Tell me what it should do. I'll reply with a fixed price and a delivery date — usually within 2 hours.</p>
+    <div class="cta reveal" style="--i:2">
+      <a class="btn btn-p magnetic" href="https://t.me/xypherOG" target="_blank" rel="noopener">Message me on Telegram</a>
+      <a class="btn btn-s magnetic" href="https://t.me/Edive_ai" target="_blank" rel="noopener">See a live bot</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    © 2025 Kuldeep · <a href="https://t.me/xypherOG" target="_blank" rel="noopener">@xypherOG</a> · Built with Python
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
